@@ -24,7 +24,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/10
-        defconfig: exynos7885-gta3xlwifi_defconfig
+        defconfig: exynos7885-gta3xlwifi_defconfig.gsi
         image: Image.gz-dtb
 
     - name: Release build
